@@ -9,7 +9,6 @@ const StyledCharacters = styled.div`
     align-items: center;
 `
 
-
 export default function Character(props) {
     const characterList = props.characterList;
 

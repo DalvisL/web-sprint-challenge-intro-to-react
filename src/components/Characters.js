@@ -84,7 +84,6 @@ function Accordian(props) {
     const hairColor = character.hair_color;
     const height = character.height;
     const mass = character.mass;
-    
     return (
         <StyledAccordian className='accordian'>
             <hr/>
@@ -102,7 +101,6 @@ function Accordian(props) {
             </div>
         </StyledAccordian>
     )
-
 }
 
 export default function Characters(props) {
@@ -111,13 +109,11 @@ export default function Characters(props) {
 
     const toggleOpen = () => {
         setOpen(!open);
-    }
-    console.log(character); // get rid of this later
-    
+    };
   return (
     <StyledCharacters className='character-container'>
         <div className='card'>
-            <h3>{character.name}</h3>
+            <h3>{character.name.toUpperCase()}</h3>
         </div>
         {(open
             ?<>

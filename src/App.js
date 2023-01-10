@@ -14,7 +14,6 @@ const StyledApp = styled.div`
       margin: 20px auto;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-
 `
 
 const App = () => {
@@ -30,7 +29,6 @@ const App = () => {
       .catch(err => console.error(err))
   }
   ,[]);
-
   return (
     <>
       <StyledApp>
